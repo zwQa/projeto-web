@@ -1,5 +1,11 @@
 {
-  
+  // config status bar
+  "workbench.colorCustomizations": {
+    "statusBar.background" : "#992dcf",
+    "statusBar.noFolderBackground" : "#992dcf",
+    "statusBar.debuggingBackground": "#992dcf"
+},
+
   // Brackets
 
   "editor.bracketPairColorization.enabled": true,
