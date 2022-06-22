@@ -1,0 +1,86 @@
+{
+  
+  // Brackets
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active",
+
+  // Font Style
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  // Material Icon
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Prettier
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.arrowParens": "avoid",
+
+  // Code Spell Checker
+  "cSpell.language": "en,pt",
+
+  // VSCode
+  "editor.fontSize": 14,
+  "workbench.statusBar.visible": true,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "git.decorations.enabled": false,
+  "editor.formatOnType": false,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": false,
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "support.class.component.html",
+        "settings": {
+          "foreground": "#569CD6"
+        }
+      }
+    ]
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  "launch": {
+    "configurations": [
+    
+    ]
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "files.autoSave": "afterDelay",
+  "terminal.explorerKind": "external",
+  "terminal.integrated.unicodeVersion": "6",
+  "terminal.integrated.letterSpacing": 0.01,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.lineHeight": 1.3
+}
+
